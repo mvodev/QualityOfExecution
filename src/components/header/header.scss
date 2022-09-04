@@ -8,13 +8,19 @@
   padding-right: 55.63px;
   padding-left: 155.36px;
   position: relative;
+
+  & .navbar {
+    margin-top: 5px;
+  }
   
   & .navbar .list-links {
     gap: 55px;
   }
+
   & .navbar .list-links_is-vertical {
     gap: 32px;
   }
+
   &_is-opened {
     padding-left: 0;
   }
