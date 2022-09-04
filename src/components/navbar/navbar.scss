@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  & .pop-up {
+    display: none;
+  }
+
+  &_is-opened{
+    position: absolute;
+    width: 451px;
+    height: 500px;
+    background-color: #A6C9FF;
+    z-index: 2;
+    padding-left: 64.5px;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    align-items: flex-start;
+
+    .pop-up{
+      margin-top: 55px;
+      display: block;
+    }
+  }
+
+}

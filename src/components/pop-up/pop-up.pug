@@ -1,0 +1,9 @@
+mixin pop-up( {text='Open pop-up button',id='pop-up'}={})
+  button.pop-up
+    input(id=id type="checkbox")
+    label(class="pop-up__label" for=id)=text
+    .pop-up__curtain
+    .pop-up__window
+      label(class="pop-up__inner-label" for=id)
+        .pop-up__inner-btn
+          .pop-up__inner-btn-cursor='X'

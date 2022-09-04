@@ -1,0 +1,36 @@
+
+@import './constants.scss';
+@import './reset.scss';
+@import './fonts.scss';
+@import './main.scss';
+@import '../components/header/header.scss';
+@import '../components/burger/burger.scss';
+@import '../components/navbar/navbar.scss';
+@import '../components/list-links/list-links.scss';
+@import '../components/carousel/carousel.scss';
+@import '../components/plates/plates.scss';
+@import '../components/footer/footer.scss';
+@import '../components/pictures/pictures.scss';
+@import '../components/pop-up/pop-up.scss';
+
+body {
+	font-family: $font-family-main,sans-serif;
+	font-size: $font-size;
+	display: flex;
+	flex-direction: column;
+	counter-reset: plates;
+}
+
+.wrapper {
+	max-width: $container-width + 20px;
+	width: 100%;
+	padding: 0 10px;
+	margin: 0 auto;
+	min-height: 1568px;
+	position: relative;
+
+	&.burger_is-opened {
+		overflow: hidden;
+	}
+}
+

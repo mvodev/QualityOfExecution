@@ -1,0 +1,22 @@
+.header{
+  height: 148px;
+  background-color: $header-color;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 55.63px;
+  padding-left: 155.36px;
+  position: relative;
+  
+  & .navbar .list-links {
+    gap: 60px;
+  }
+  & .navbar .list-links_is-vertical {
+    gap: 20px;
+  }
+  &_is-opened {
+    padding-left: 0;
+  }
+
+}

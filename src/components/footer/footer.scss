@@ -1,0 +1,15 @@
+.footer {
+  height: 100px;
+  background-color: #D87FF6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+    & .navbar .list-links {
+      flex: 1 0 286px;
+      margin-left: 204.5px;
+      margin-right: 220.5px;
+      gap: 175px;
+    }
+
+}

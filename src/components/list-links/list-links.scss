@@ -1,0 +1,26 @@
+.list-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__link {
+    list-style-type: none;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    font-weight: 500;
+    color: white;
+  }
+  &__ref_active{
+    text-decoration: underline;
+  }
+
+  &_expanded {
+    gap: 175px;
+  }
+  
+  &_is-vertical {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+}

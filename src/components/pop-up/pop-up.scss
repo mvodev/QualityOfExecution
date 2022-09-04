@@ -1,0 +1,105 @@
+@import '../../styles/constants.scss';
+
+.pop-up {
+  position: relative;
+  z-index: 1;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 262px;
+  height: 58px;
+  background-color: $accent-color;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  align-items: center;
+  justify-content: center;
+
+  &:hover{
+    background-color: #8c6767;
+  }
+
+  &__label{
+    cursor: pointer;
+  }
+
+  & input {
+    display: none;
+  }
+
+  &__inner-btn{
+    background-color: $cart-tovar-bg-color;
+    width: 43px;
+    height: 39px;
+    cursor: pointer;
+  }
+
+  input:checked ~ .pop-up__curtain{
+    display: block;
+  }
+  input:checked {
+    cursor: none;
+  }
+  input:checked ~ .pop-up__window{
+    display: flex;
+  }
+
+  &__curtain {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    padding: 20px;
+    opacity: 50%;
+    background-color: $background-color;
+  }
+
+  &__window {
+    width: 400px;
+    height: 400px;
+    flex-direction: row;
+    justify-content: end;
+    display: none;
+    background-color: $background-color;
+    margin: 0 auto;
+    position: fixed;
+    padding-right: 15px;
+    padding-top: 15px;
+    z-index: 101;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+  }
+
+  &__inner-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__inner-btn-cursor{
+    height: 23px;
+    width: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 23px;
+    font-size: 20px;
+  }
+
+}

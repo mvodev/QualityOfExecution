@@ -1,0 +1,7 @@
+include ../burger/burger.pug
+include ../navbar/navbar.pug
+mixin header 
+  header.header.js-header
+    +navbar({links:[{text:'Text',href:'http:/mock-adress-change-me',isActive:true},{text:'Text',href:'http:/mock-adress-change-me'},{text:'Text',href:'http:/mock-adress-change-me'}],className:'js-header-navbar'})
+    .header__plug
+    +burger

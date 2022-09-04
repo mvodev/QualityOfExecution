@@ -1,0 +1,6 @@
+include ../list-links/list-links.pug
+include ../pop-up/pop-up.pug
+mixin navbar( {links=[],className=''}={} ) 
+  nav(class='navbar '+className)
+    +list-links({links})
+    +pop-up({id:'pop-up-header'})

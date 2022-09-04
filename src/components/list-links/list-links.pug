@@ -1,0 +1,5 @@
+mixin list-links({ links = [], isVertical = false,} = {})
+  ul.list-links(class=isVertical?'list-links_vertical':'')
+    each link in links
+      li.list-links__link
+        a.list-links__ref(href=link.href class=link.isActive && 'list-links__ref_active')=link.text
