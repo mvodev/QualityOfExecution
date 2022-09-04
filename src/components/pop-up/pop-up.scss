@@ -67,10 +67,12 @@
   }
 
   &__window {
+    position: relative;
     width: 400px;
     height: 400px;
     flex-direction: row;
-    justify-content: end;
+    justify-content: center;
+    align-items: center;
     display: none;
     background-color: $background-color;
     margin: 0 auto;
@@ -85,6 +87,9 @@
   }
 
   &__inner-btn{
+    position: absolute;
+    right: 8px;
+    top: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
