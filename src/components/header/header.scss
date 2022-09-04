@@ -20,3 +20,18 @@
   }
 
 }
+
+@media (max-width:660px){
+  .header {
+    padding-left: 45px;
+  }
+}
+
+@media (max-width:580px){
+  .header .navbar{
+    display: none;
+  }
+  .header_is-opened .navbar{
+    display: flex;
+  }
+}
