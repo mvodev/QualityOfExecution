@@ -13,6 +13,10 @@
     margin-top: 5px;
   }
   
+  & .navbar_is-opened {
+    margin-top: 0;
+  }
+  
   & .navbar .list-links {
     gap: 55px;
   }
