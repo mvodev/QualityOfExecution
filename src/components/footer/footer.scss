@@ -13,3 +13,30 @@
     }
 
 }
+
+@media (max-width:1124px){
+  .footer{
+    justify-content: center;
+  }
+  .footer .navbar .list-links {
+      gap: 35px;
+    }
+}
+
+@media (max-width:720px){
+  .footer{
+    justify-content: center;
+    height: auto;
+  }
+
+  .footer .navbar .list-links {
+    gap: 35px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .footer .navbar {
+    justify-content: center;
+  }
+}
