@@ -18,11 +18,12 @@
   }
 
   &__header_h2{
-    font-size: 2.14rem;
+    font-size: 2.0rem;
     font-weight: 600;
     line-height: 3.2rem;
     letter-spacing: 0em;
-    margin: 40px 0;
+    margin: 36px 0;
+    color: white;
   }
 
   &__header_h3{
@@ -32,6 +33,7 @@
     letter-spacing: 0em;
     margin-top: 40px;
     margin-bottom: 9px;
+    color: white;
   }
 
 }

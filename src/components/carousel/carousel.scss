@@ -32,9 +32,14 @@
     }
   }
 
+  &__content {
+    margin-left: 222px;
+    flex: 1 0 452px;
+  }
+
   &__content-item{
     color: white;
-    font-size: 3.2rem;
+    font-size: 3.0rem;
     font-weight: 700;
     line-height: 3.2rem;
     letter-spacing: 0em;
@@ -43,12 +48,15 @@
   &__content-item-wrapper {
     display: none;
     flex-direction: row;
-    gap: 20px;
+    justify-content: space-between;
+    max-width: 452px;
+    width: 100%;
+    flex: 1 0 452px;
+    margin-top: -10px;
+    
     &_is-visible{
       display: flex;
-      align-items: center;
     }
   }
 
-  
 }
