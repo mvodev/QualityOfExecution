@@ -16,6 +16,7 @@ module.exports = {
 			use: [
 				miniCss.loader,
 				'css-loader',
+        'postcss-loader',
 				'sass-loader',
 			]
 		},
