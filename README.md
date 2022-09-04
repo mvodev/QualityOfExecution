@@ -1,6 +1,6 @@
   # Тестовое задание компании Quality Of Execution.
   ## Ссылка на Github Pages
-[]
+[https://mvodev.github.io/QualityOfExecution/]
   ## Клонирование
       git clone 
   ## Установка
