@@ -2,13 +2,21 @@
   ## Ссылка на Github Pages
 [https://mvodev.github.io/QualityOfExecution/]
   ## Клонирование
-      git clone 
+  ```
+    git clone https://github.com/mvodev/QualityOfExecution.git
+  ```
   ## Установка
-      npm i
+  ```
+    npm i
+  ```
   ## Сборка проекта в режиме production
-      npm run build
+  ```
+    npm run build
+  ```
   ## Запуск webpack dev server
-      npm run start
+  ```
+    npm run start
+  ```
   ## Результат сборки проекта
   Находится в папке docs
 
