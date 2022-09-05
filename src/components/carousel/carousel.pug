@@ -7,7 +7,7 @@ mixin carousel({ content = [],} = {})
       each elem in content
         .carousel__content-item-wrapper.js-carousel__content-item-wrapper
           h1.carousel__content-item=elem.text
-          +pop-up({ id:Date.now() })
+          +pop-up({id:Date.now()+'carousel'})
     button.carousel__arrow.carousel__arrow_right.js-arrow-right
       .carousel__arrow-wrapper
     

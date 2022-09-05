@@ -3,4 +3,4 @@ include ../pop-up/pop-up.pug
 mixin navbar( {links=[],className=''}={} ) 
   nav(class='navbar '+className)
     +list-links({links})
-    +pop-up({id:'pop-up-header'})
+    +pop-up({id:Date.now()+'pop-up-header'})
