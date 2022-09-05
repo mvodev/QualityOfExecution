@@ -2,13 +2,25 @@
   ## Ссылка на Github Pages
 [https://mvodev.github.io/QualityOfExecution/]
   ## Клонирование
-      git clone 
+  ```
+    git clone https://github.com/mvodev/QualityOfExecution.git
+  ```
+  ## Ссылка на макет
+  ```
+  https://www.figma.com/file/1p1wCs1y8E0dKvReLwYdKp/Test-task?node-id=0%3A1
+  ```
   ## Установка
-      npm i
+  ```
+    npm i
+  ```
   ## Сборка проекта в режиме production
-      npm run build
+  ```
+    npm run build
+  ```
   ## Запуск webpack dev server
-      npm run start
+  ```
+    npm run start
+  ```
   ## Результат сборки проекта
   Находится в папке docs
 
@@ -18,3 +30,4 @@
 Модальная форма должна иметь полупрозрачную подложку, позиционирована по центру экрана.
 В вёрстке макета не должны быть использованы фреймворки.
 Вёрстка должна быть адаптивна (по Вашему усмотрению) и кроссбраузерна.
+Pop-up должен быть свёрстан на CSS без использования JS (открытие/закрытие, позиционирование).
