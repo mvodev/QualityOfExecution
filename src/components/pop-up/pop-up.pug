@@ -5,5 +5,6 @@ mixin pop-up( {text='Open pop-up button',id='',contentText='Pop-up'}={})
     .pop-up__curtain
     .pop-up__window=contentText
       label(class="pop-up__inner-label" for=id)
-        .pop-up__inner-btn
-          .pop-up__inner-btn-cursor='X'
+      .pop-up__inner-btn
+        .pop-up__inner-btn-cursor
+          label(class="pop-up__inner-label" for=id)='X'
